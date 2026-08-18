@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panorama do Mercado Tech</title>
+
+  <meta
+    name="description"
+    content="Landing page acadêmica com análise de vagas locais e nacionais da área de tecnologia."
+  >
+
+  <meta
+    name="keywords"
+    content="tecnologia, mercado de trabalho, vagas de tecnologia, desenvolvimento web, HTML, CSS, Bootstrap"
+  >
+
+  <meta name="author" content="Henrique Gomes do Vale">
+  <meta http-equiv="content-language" content="pt-BR">
+  <meta name="theme-color" content="#198754">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Panorama do Mercado Tech">
+  <meta property="og:description" content="Landing page acadêmica com análise de vagas locais e nacionais da área de tecnologia.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="assets/icons/favicon_io/site.webmanifest">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom fixed-top" aria-label="Navegação principal">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#inicio">
+          <img
+            src="assets/images/logo.png"
+            alt="Logo do projeto Panorama do Mercado Tech"
+            class="logo"
+          >
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal"
+          aria-expanded="false"
+          aria-label="Abrir menu de navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#pesquisa">Pesquisa</a></li>
+            <li class="nav-item"><a class="nav-link" href="#vagas">Vagas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#tecnologias">Tecnologias</a></li>
+            <li class="nav-item"><a class="nav-link" href="#competencias">Competências</a></li>
+            <li class="nav-item"><a class="nav-link" href="#analise">Análise</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo-principal">
+
+    <section id="inicio" class="hero-section bg-light">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <span class="badge text-bg-success mb-3">Fábrica de Software</span>
+
+            <h1 class="display-5 fw-bold mb-3">
+              Panorama do Mercado de Tecnologia
+            </h1>
+
+            <p class="lead mb-4">
+              Análise de vagas locais e nacionais para identificar cargos,
+              tecnologias, competências e tendências exigidas pelo mercado.
+            </p>
+
+            <a href="#vagas" class="btn btn-success btn-lg">
+              Ver vagas analisadas
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pesquisa" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold text-success">Apresentação da pesquisa</h2>
+            <p class="text-muted">
+              A pesquisa analisou vagas de Joinville/SC e de todo o Brasil (modalidade remota),
+              coletadas entre os dias 1º e 4 de agosto de 2026 no LinkedIn, Infojobs e Jobsora,
+              com foco em cargos de nível júnior e estágio.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-2">
+          <div class="col-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm text-center">
+              <div class="card-body">
+                <p class="display-6 fw-bold text-success mb-1">8</p>
+                <p class="text-muted mb-0">vagas analisadas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm text-center">
+              <div class="card-body">
+                <p class="display-6 fw-bold text-success mb-1">4</p>
+                <p class="text-muted mb-0">vagas em Joinville/SC</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm text-center">
+              <div class="card-body">
+                <p class="display-6 fw-bold text-success mb-1">4</p>
+                <p class="text-muted mb-0">vagas nacionais/remotas</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-lg-3">
+            <div class="card h-100 border-0 shadow-sm text-center">
+              <div class="card-body">
+                <p class="display-6 fw-bold text-success mb-1">3</p>
+                <p class="text-muted mb-0">plataformas consultadas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="vagas" class="section-padding bg-light">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8">
+            <h2 class="fw-bold text-success">Vagas analisadas</h2>
+            <p class="text-muted">
+              Comparativo entre oportunidades locais e nacionais identificadas durante o
+              levantamento.
+            </p>
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <h3 class="h4 mb-3">Mercado local (Joinville/SC)</h3>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Desenvolvedor(a) Backend | Junior</h4>
+                  <span class="badge text-bg-dark">Júnior</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> Ultra LIMS — LinkedIn, 04/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> PHP, JavaScript, MySQL, PostgreSQL</p>
+                <p class="text-muted mb-0">
+                  Ferramentas e competências: Git, Linux, arquitetura de software, APIs REST.
+                </p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Back-end Senior</h4>
+                  <span class="badge text-bg-dark">Sênior</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> TOTVS — LinkedIn, 02/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> Java, Spring Boot, Angular</p>
+                <p class="text-muted mb-0">
+                  Ferramentas e competências: arquitetura hexagonal, microsserviços, modelagem DDD, testes unitários.
+                </p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Desenvolvedor .NET Front-end</h4>
+                  <span class="badge text-bg-dark">Presencial</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> MWA Sistemas — Infojobs, 02/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> .NET, C#, JavaScript, React, Bootstrap, SQL Server</p>
+                <p class="text-muted mb-0">
+                  Ferramentas e competências: sistemas ERP, Git ou SVN.
+                </p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Programador Mobile</h4>
+                  <span class="badge text-bg-dark">Joinville/SC</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> Jobsora, 01/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> JavaScript, Flutter, MySQL, SQL Server</p>
+                <p class="text-muted mb-0">
+                  Ferramentas e competências: iOS e Android, SDK Android Nativo, Web Services RESTful.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="h4 mb-3">Mercado nacional e remoto</h3>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Desenvolvedor Junior</h4>
+                  <span class="badge text-bg-dark">Remoto</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> Neogrid — LinkedIn, 04/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> Golang, Java, Python, JavaScript, C#</p>
+                <p class="text-muted mb-0">
+                  Banco de dados: PostgreSQL, Oracle, SQL Server. Ferramentas: Git, cloud computing, CI/CD.
+                </p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Engenheiro de Dados Junior</h4>
+                  <span class="badge text-bg-dark">Remoto</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> Localiza&Co — LinkedIn, 03/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> Python</p>
+                <p class="text-muted mb-0">
+                  Banco de dados: PostgreSQL, MySQL, MongoDB, Redis. Ferramentas: Power BI, AWS S3, Lake Formation, Glue.
+                </p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Back-end junior</h4>
+                  <span class="badge text-bg-dark">Brasil</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> Jobgether — LinkedIn, 04/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> Java, Python, Golang, Spring Boot</p>
+                <p class="text-muted mb-0">
+                  Banco de dados: PostgreSQL, NoSQL. Ferramentas: AWS, Azure ou GCP, APIs, Git, SVN.
+                </p>
+              </div>
+            </div>
+
+            <div class="card mb-3 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="d-flex justify-content-between gap-3 mb-2">
+                  <h4 class="h5 mb-0">Estágio em Automação RPA</h4>
+                  <span class="badge text-bg-dark">Estagiário</span>
+                </div>
+                <p class="mb-1"><strong>Empresa/Fonte:</strong> Smarthis — LinkedIn, 03/08/2026</p>
+                <p class="mb-1"><strong>Tecnologias:</strong> .NET, Python, PHP, Java, C#, VBA</p>
+                <p class="text-muted mb-0">
+                  Ferramentas e competências: Machine Learning, Business Intelligence, RPA (Robotic Process Automation).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section-padding">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6">
+            <h2 class="fw-bold text-success">Tecnologias mais citadas</h2>
+            <p class="text-muted">
+              Java, JavaScript e Python aparecem em 4 das 8 vagas analisadas. Entre os bancos
+              de dados relacionais, PostgreSQL, MySQL e SQL Server se destacam entre os demais,
+              e o Git foi citado em 4 vagas.
+            </p>
+
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              <span class="badge rounded-pill text-bg-light border">Java</span>
+              <span class="badge rounded-pill text-bg-light border">JavaScript</span>
+              <span class="badge rounded-pill text-bg-light border">Python</span>
+              <span class="badge rounded-pill text-bg-light border">C#</span>
+              <span class="badge rounded-pill text-bg-light border">Golang</span>
+              <span class="badge rounded-pill text-bg-light border">PHP</span>
+              <span class="badge rounded-pill text-bg-light border">.NET</span>
+              <span class="badge rounded-pill text-bg-light border">Spring Boot</span>
+              <span class="badge rounded-pill text-bg-light border">Angular</span>
+              <span class="badge rounded-pill text-bg-light border">React</span>
+              <span class="badge rounded-pill text-bg-light border">Flutter</span>
+              <span class="badge rounded-pill text-bg-light border">PostgreSQL</span>
+              <span class="badge rounded-pill text-bg-light border">MySQL</span>
+              <span class="badge rounded-pill text-bg-light border">SQL Server</span>
+              <span class="badge rounded-pill text-bg-light border">Git</span>
+              <span class="badge rounded-pill text-bg-light border">APIs REST</span>
+              <span class="badge rounded-pill text-bg-light border">AWS</span>
+              <span class="badge rounded-pill text-bg-light border">Azure</span>
+              <span class="badge rounded-pill text-bg-light border">CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="competencias" class="section-padding bg-light">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="h5 fw-bold">Competências técnicas</h3>
+                <ul class="mb-0">
+                  <li>Lógica de programação e orientação a objetos</li>
+                  <li>Versionamento de código com Git</li>
+                  <li>Bancos de dados relacionais (PostgreSQL, MySQL, SQL Server)</li>
+                  <li>Desenvolvimento e consumo de APIs REST</li>
+                  <li>Noções de infraestrutura na nuvem (AWS, Azure, GCP)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body p-4">
+                <h3 class="h5 fw-bold">Competências comportamentais</h3>
+                <ul class="mb-0">
+                  <li>Autonomia, especialmente em vagas remotas</li>
+                  <li>Boa comunicação escrita e organização</li>
+                  <li>Adaptabilidade a novas tecnologias</li>
+                  <li>Disciplina para documentação e padronização</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="analise" class="section-padding">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold text-success">Análise final</h2>
+            <p class="text-muted">
+              A maioria dos anúncios analisados é voltada a nível júnior e estágio. Java,
+              JavaScript, Python e C# são as linguagens mais valorizadas, enquanto PostgreSQL
+              e MySQL lideram entre os bancos de dados. Git, APIs REST e conhecimentos em
+              infraestrutura na nuvem (AWS e Azure) aparecem como diferenciais técnicos tanto
+              nas vagas locais de Joinville quanto nas oportunidades nacionais e remotas — que,
+              por sua vez, exigem maior maturidade em computação em nuvem, engenharia de dados
+              e práticas de CI/CD.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-top py-4 bg-white">
+    <div class="container text-center text-muted">
+      <p class="mb-1">Disciplina: Fábrica de Software</p>
+      <p class="mb-1">Acadêmico: Henrique Gomes do Vale</p>
+      <p class="mb-0">Univille | 2026</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
